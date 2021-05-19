@@ -44,3 +44,4 @@ Un atacante puede abusar de la vulnerabilidad encontrada y escalar privilegios p
 
 
 ### PoC
+![ScreenShot](POC/infosec9.png)
