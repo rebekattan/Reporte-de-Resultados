@@ -32,7 +32,8 @@ Exploit
 12. Ejecutar comando exploit
 
 ### Impacto
-Un atacante puede abusar de la vulnerabilidad encontrada y escalar privilegios para llevar a cabo un ataque de denegación de servicio contra el sistema vulnerable con el fin de bloquear el servicio para el que está destinado. Este ataque puede afectar, tanto a la fuente que ofrece la información como puede ser una aplicación o el canal de transmisión, así como a la red. En las redes, el peligro de un ataque basado en el protocolo SMB es particularmente alto, ya que, por motivos de compatibilidad, en la red suelen estar activadas todas las versiones de SMB, porque así lo requieren las impresoras u otros dispositivos de red conectados. También es importante tener en cuenta que la información que se encuentra en el sistema vulnerable queda expuesta al atacante y se corre el riesgo de perderla.
+Un atacante puede abusar de la vulnerabilidad encontrada y escalar privilegios para llevar a cabo un ataque de denegación de servicio contra el sistema vulnerable, comprometiendo así la integridad del sistema. También es importante tener en cuenta que la información que se encuentra en el sistema vulnerable queda expuesta al atacante y se corre el riesgo de perderla. 
+
 
 ### Mitigación
 - Bloquear el acceso a los puertos SMB desde redes que no sean de confianza.
@@ -44,4 +45,8 @@ Un atacante puede abusar de la vulnerabilidad encontrada y escalar privilegios p
 
 
 ### PoC
+Alcance dentro de Kioptrix
+
 ![ScreenShot](POC/infosec9.png)
+![ScreenShot](POC/hash-harold.png)
+![ScreenShot](POC/hash-jhon.png)
